@@ -1,8 +1,8 @@
 name: Print code
-on: [ push ]
+on: [push]
  
 jobs:
   runs-on: ubuntu-latest
   steps:
-   - name: printin hello
+   - name: printing hello
      run: echo "hello github action "
