@@ -1,11 +1,8 @@
 name: Print code
-
-on:
- push:
-  branches: ["main"]
+on: [ push ]
+ 
 jobs:
   runs-on: ubuntu-latest
-
   steps:
    - name: printin hello
      run: echo "hello github action"
