@@ -2,7 +2,7 @@ name: Print code
 
 on:
  push:
-  branches: ["master"]
+  branches: ["main"]
 jobs:
   runs-on: ubuntu-latest
 
