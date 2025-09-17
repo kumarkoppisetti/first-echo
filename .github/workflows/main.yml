@@ -5,4 +5,4 @@ jobs:
   runs-on: ubuntu-latest
   steps:
    - name: printin hello
-     run: echo "hello github action"
+     run: echo "hello github action "
